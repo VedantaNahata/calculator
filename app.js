@@ -6,7 +6,7 @@ function solve() {
     let final_output= eval(input_number);
     document.getElementById("output-display").value = final_output;
 }
-function vedanta() {
+function refresh() {
    let answer = document.getElementById("output-display");
    answer.value = "0";
 }
